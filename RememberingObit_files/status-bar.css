@@ -1,0 +1,27 @@
+.story-status-top-bar {
+    background: white;
+    font-size: 14px;
+    min-height: 200px;
+    padding: 0 10%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.story-status-top-bar h1, .story-status-top-bar p {
+    color: #767676;
+}
+
+.story-status-top-bar h1 {
+    font-family: Raleway, Verdana, sans-serif;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.story-status-top-bar p {
+    margin-bottom: .5rem;
+}
+
+.btn-blue {
+    margin: 2rem 0;
+    padding: 1rem 6rem;
+}
