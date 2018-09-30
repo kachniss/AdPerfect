@@ -1,0 +1,92 @@
+/** Internal CSS File **/
+
+#ap_int_panel {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100000;
+    background: #2A3841;
+}
+
+.ap_int_open_panel {
+    border-bottom-right-radius: 15px;
+}
+
+#ap_int_toggle {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    float:left;
+    cursor: pointer;
+    background: url('/images/icons/control_fastforward.png') center center no-repeat;
+}
+
+.ap_int_open_toggle {
+    background: url('/images/icons/control_rewind.png') center center no-repeat !important;
+}
+
+
+#ap_int_content {
+    padding: 5px;
+    display: none;
+}
+
+.ap_int_open_content {
+    display: inline-block !important;
+}
+
+#ap_int_content span {
+    padding: 2px 8px;
+    border: 1px solid #6CB6DA;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background: #214C6C;
+    color: #FFF;
+    display: block;
+    width: 200px;
+}
+
+#ap_int_content span a,
+#ap_int_content span a:visited {
+    color: #FFF;
+}
+
+#ap_int_content select {
+    width: 325px;
+}
+
+#ap_int_content span.ap_int_label {
+    border:0px;
+    background: transparent;
+    color: #FFF;
+    font-weight: 1.3em;
+}
+
+body.ap_int_open_body {
+    margin-top: 30px !important;
+}
+
+/** Custom button styles **/
+
+#ap_int_content span.ap_int_setting_off {
+    background: #933;
+    border-color: #F00;
+    color: #FFF;
+}
+
+#ap_int_content span.ap_int_setting_on {
+    background: #393;
+    border-color: #0F0;
+    color: #FFF;
+}
+
+#ap_int_conf,
+#ap_clear_host {
+    cursor: pointer !important;
+}
+
+#ap_int_content span.spacer {
+    width: 20px;
+    border:0 !important;
+    background:transparent !important;
+}
