@@ -1,7 +1,20 @@
+.story-panel-dimmed:after {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .story-status-top-bar {
     background: white;
     font-size: 14px;
     min-height: 200px;
+
     padding: 0 10%;
     position: fixed;
     z-index: 1000;
@@ -21,7 +34,8 @@
     margin-bottom: .5rem;
 }
 
-.btn-blue {
+.story-status-top-bar .btn-blue {
     margin: 2rem 0;
     padding: 1rem 6rem;
 }
+
